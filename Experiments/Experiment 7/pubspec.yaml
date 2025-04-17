@@ -1,0 +1,26 @@
+name: rahul_kulthia
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2  # For picking images from gallery/camera
+  geolocator: ^10.1.0   # For GPS location services
+  geocoding: ^2.1.0     # Optional: Convert GPS coordinates to address
+  sqflite: ^2.3.0       # For SQLite database
+  path_provider: ^2.1.1 # For file paths (required by sqflite)
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
